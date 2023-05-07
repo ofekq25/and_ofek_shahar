@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEventActivity"
+    >
+
+
+
+
+    <EditText
+        android:id="@+id/in_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="SELECT Title"
+        android:id="@+id/btn_name"
+        android:layout_alignBottom="@+id/in_name"
+        android:layout_toRightOf="@+id/in_name"
+        android:layout_toEndOf="@+id/in_name" />
+
+    <EditText
+        android:id="@+id/in_date"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/in_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="SELECT Date"
+        android:id="@+id/btn_date"
+        android:layout_below="@+id/btn_name"
+        android:layout_alignLeft="@+id/btn_name"
+        />
+
+    <EditText
+        android:id="@+id/in_time"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/in_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="52dp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="SELECT Time"
+        android:id="@+id/btn_time"
+        android:layout_below="@+id/btn_name"
+        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@+id/btn_name"
+
+        />
+
+    <EditText
+        android:id="@+id/in_Place"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/in_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="SELECT Place"
+        android:id="@+id/btn_place"
+        android:layout_below="@+id/btn_name"
+        android:layout_marginTop="100dp"
+        android:layout_alignLeft="@+id/btn_name"
+
+        />
+    <EditText
+        android:id="@+id/in_description"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/in_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="150dp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:id="@+id/btn_description"
+        android:layout_below="@+id/btn_name"
+        android:layout_marginTop="155dp"
+        android:layout_alignLeft="@+id/btn_name"
+
+        />
+    <Button
+        android:id="@+id/btnSave_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_name"
+        android:layout_alignLeft="@+id/btn_name"
+        android:layout_marginLeft="-42dp"
+        android:layout_marginTop="380dp"
+        android:text="save" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radio_agriculture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:checked="true"
+            android:text="Agriculture" />
+
+        <RadioButton
+
+            android:id="@+id/radio_planting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Planting"
+            />
+
+
+    </RadioGroup>
+
+
+    <FrameLayout
+        android:id="@+id/frame_add_event"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</RelativeLayout>

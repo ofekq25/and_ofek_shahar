@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gard_back3"
+    tools:context=".HomeFragment"
+    >
+
+    <!-- todo this should be fragment to add events(appears for managers) -->
+
+
+
+
+    <ImageView
+        android:id="@+id/notifications_list_user"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/bell2"
+        android:layout_gravity="left"
+
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Imageview_profileInit"
+        android:layout_width="150dp"
+        android:layout_height="180sp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="49dp"
+        android:src="@drawable/user"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4sp"
+        tools:ignore="MissingClass" />
+    <EditText
+        android:id="@+id/name_profile_managers"
+        android:layout_width="150sp"
+        android:layout_height="70sp"
+        android:layout_gravity="left"
+        android:textAlignment="center"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="235sp"
+
+        android:hint="name"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/email_profile_managers"
+        android:layout_width="150dp"
+        android:layout_height="70sp"
+        android:layout_gravity="left"
+        android:textAlignment="center"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="320sp"
+        android:hint="email"
+        tools:ignore="RtlCompat" />
+
+
+
+
+</FrameLayout>

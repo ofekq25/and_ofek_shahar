@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EventDetails"
+    >
+
+    <Button
+        android:id="@+id/show_eventUsers_manager"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:text="event users"
+        />
+    <ImageView
+        android:id="@+id/backPage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+    <EditText
+        android:id="@+id/titleInit"
+        android:layout_width="190sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="130sp"
+        android:hint="title" />
+
+    <ImageView
+        android:id="@+id/title_icon"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="75sp"
+        android:layout_marginTop="140sp"
+        android:src="@drawable/title1"
+        />
+
+
+    <!-- Circular Image View  -->
+    <EditText
+        android:id="@+id/manager_emailInit"
+        android:layout_width="190sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="180sp"
+
+        android:hint="manager email" />
+
+    <ImageView
+        android:id="@+id/manager_email_icon"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="75sp"
+        android:layout_marginTop="195sp"
+        android:src="@drawable/arroba"
+
+        />
+
+    <EditText
+        android:id="@+id/dateInit"
+        android:layout_width="190sp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="235sp"
+
+        android:hint="date" />
+
+    <ImageView
+        android:id="@+id/date_icon"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="75sp"
+        android:layout_marginTop="250sp"
+        android:src="@drawable/calendar"
+
+        />
+
+    <EditText
+        android:id="@+id/timeInit"
+        android:layout_width="190dp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="290sp"
+
+        android:hint="time" />
+
+    <ImageView
+        android:id="@+id/time_icon"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="75sp"
+        android:layout_marginTop="305sp"
+        android:src="@drawable/clock2"
+
+        />
+
+    <EditText
+        android:id="@+id/placeInit"
+        android:layout_width="190dp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="355sp"
+
+        android:hint="place" />
+
+    <ImageView
+        android:id="@+id/place_icon"
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="365sp"
+        android:src="@drawable/location"
+
+        />
+
+    <EditText
+        android:id="@+id/descriptionInit"
+        android:layout_width="190dp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="425sp"
+
+        android:hint="description" />
+
+    <ImageView
+        android:id="@+id/description_icon"
+        android:layout_width="70sp"
+        android:layout_height="55sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="435sp"
+        android:src="@drawable/description"
+
+        />
+
+    <EditText
+        android:id="@+id/typeInit"
+        android:layout_width="190dp"
+        android:layout_height="70sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="135sp"
+        android:layout_marginTop="520dp"
+
+        android:hint="type" />
+
+    <ImageView
+        android:id="@+id/type_icon"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="529dp"
+        android:src="@drawable/type"
+        />
+
+
+    </RelativeLayout>
